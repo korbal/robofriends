@@ -41,7 +41,7 @@ class App extends Component {
       return <h1 className="tc">Loading...</h1>
     } else {
   return (
-    <div className="tc">
+    <div className="tc container">
       <h1 className="f1">RoboFriends</h1>
       <SearchBox searchChange={this.onSearchChange} />
       <Scroll>  
